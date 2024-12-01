@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText for Kelas with increased touch target -->
+    <EditText
+        android:id="@+id/kelas_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="@string/enter_nama"
+        android:padding="12dp" />
+
+    <!-- EditText for Nama with increased touch target -->
+    <EditText
+        android:id="@+id/nama_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_kelas"
+        android:inputType="textMultiLine"
+        android:padding="12dp" />
+
+    <!-- LinearLayout to hold the buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="2">
+
+        <!-- Update Button with increased touch target size -->
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:text="@string/btn_update"
+            android:padding="12dp" />
+
+        <!-- Delete Button with increased touch target size -->
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:text="@string/btn_delete"
+            android:padding="12dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Data Mahasiswa</string>
+    <string name="empty_list_text">Belum ada data mahasiswa</string>
+    <string name="add_record">Tambahkan</string>
+    <string name="enter_nama">Masukan Nama</string>
+    <string name="enter_kelas">Masukan Kelas</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+</resources>
